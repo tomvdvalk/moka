@@ -4,7 +4,7 @@
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -18,37 +18,34 @@ a.underline {
 	width: 100vw;
 }
 
-#overlay {
-	display: block;
-	height: 100vh;
-	width: 100%;
-	background: white;
-	position: absolute;
-	opacity: 0.7;
-	top: 0;
-	z-index: 997;
+body {
+	color: white;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
-#logo {
+#top {
 	position: absolute;
 	display: block;
 	z-index: 998;	
 	width: 100%;
 	text-align: center;
 	margin-top: 6vh;
-	font-family: 'Nunito Sans', sans-serif;
-	font-style: italic;
-	font-weight : 200;
-	color: gray;
-	font-size: 2em;
+	font-weight: 200;
+	font-size: 1.8em;
 }
 
-#logo img {
-	display: block;
-	width: 46%;
-	height: auto;
-	margin: 0 auto;
-	margin-bottom: 1vh;
+#logo {
+	font-family: 'Nunito Sans', sans-serif;
+	line-height: 160%;
+	font-weight: 300;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+
+}
+
+#moka {
+	font-weight: 700;
+	font-size: 1.6em;
 }
 
 #content {
@@ -57,10 +54,35 @@ a.underline {
 	position: absolute;
 	bottom: 2vh;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	font-family: 'Lato', sans-serif;
 	line-height: 140%;
-	font-size: 1em;
+	font-size: 1.6em;
+	font-weight: 200;
+}
+
+#left {
+	position: absolute;
+	left: 5em;
+	bottom: 3em;
+	display: block;
+}
+
+#right {
+	position: absolute;
+	right: 5em;
+	bottom: 3em;
+	display: block;
+}
+
+.title {
+	margin-bottom: 1em;
+	line-height: 160%;
+}
+
+.cap {
+	font-weight: 700;
+	font-size: 1.6em;
 }
 
 
