@@ -21,6 +21,7 @@ a.underline {
 body {
 	color: white;
 	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 300;
 }
 
 #top {
@@ -35,12 +36,9 @@ body {
 }
 
 #logo {
-	font-family: 'Nunito Sans', sans-serif;
 	line-height: 160%;
-	font-weight: 300;
 	margin-bottom: 1em;
 	font-size: 1.2em;
-
 }
 
 #moka {
@@ -52,27 +50,22 @@ body {
 	display: block;
 	z-index: 998;
 	position: absolute;
-	bottom: 2vh;
+	bottom: 3em;
 	width: 100%;
-	text-align: left;
-	font-family: 'Lato', sans-serif;
 	line-height: 140%;
 	font-size: 1.6em;
-	font-weight: 200;
 }
 
 #left {
-	position: absolute;
-	left: 5em;
-	bottom: 3em;
+	float: left;
 	display: block;
+	margin-left: 5em;
 }
 
 #right {
-	position: absolute;
-	right: 5em;
-	bottom: 3em;
+	float: right;
 	display: block;
+	margin-right: 5em;
 }
 
 .title {
@@ -83,6 +76,22 @@ body {
 .cap {
 	font-weight: 700;
 	font-size: 1.6em;
+}
+
+@media (max-width: 800px) {
+#left {
+	float: none;
+	text-align: center;
+	margin: 0;
+}
+
+#right {
+	float: none;
+	text-align: center;
+	margin: 0;
+	margin-top: 1em;
+}
+
 }
 
 
