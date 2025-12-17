@@ -78,7 +78,19 @@ body {
 	font-size: 1.6em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+	
+#top {
+	margin-top: 2vh;
+	font-size: 1.4em;
+}
+
+#content {
+	display: block;
+	bottom: 1em;
+	font-size: 1.2em;
+}
+	
 #left {
 	float: none;
 	text-align: center;
@@ -127,12 +139,6 @@ body {
 	width: 100%;
 	border: 0;
 	object-fit: cover;
-}
-
-@media screen and (orientation:portrait) {
-   #logo img {
-	width: 80%;
-	}
 }
 
 
